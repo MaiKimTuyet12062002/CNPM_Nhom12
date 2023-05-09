@@ -1,19 +1,20 @@
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <!DOCTYPE html>
 <html>
 
 <head>
     <!-- Basic -->
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <!-- Mobile Metas -->
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Site Metas -->
-    <meta name="keywords" content="" />
-    <meta name="description" content="" />
-    <meta name="author" content="" />
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
     <link rel="shortcut icon" href="images/favicon.png" type="">
 
-    <title> Feane </title>
+    <title> Fast Food </title>
 
     <!-- bootstrap core css -->
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
@@ -42,9 +43,9 @@
     <header class="header_section">
         <div class="container">
             <nav class="navbar navbar-expand-lg custom_nav-container ">
-                <a class="navbar-brand" href="index.html">
+                <a class="navbar-brand" href="index.jsp">
             <span>
-              Feane
+              Fast Food
             </span>
                 </a>
 
@@ -55,16 +56,13 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav  mx-auto ">
                         <li class="nav-item active">
-                            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="index.jsp">Trang chủ <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="menu.jsp">Menu</a>
+                            <a class="nav-link" href="menu.jsp">Thực đơn</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="about.jsp">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="book.jsp">Book Table</a>
+                            <a class="nav-link" href="about.jsp">Liên hệ</a>
                         </li>
                     </ul>
                     <div class="user_option">
@@ -130,9 +128,6 @@
                                 <i class="fa fa-search" aria-hidden="true"></i>
                             </button>
                         </form>
-                        <a href="" class="order_online">
-                            Order Online
-                        </a>
                     </div>
                 </div>
             </nav>
@@ -1122,67 +1117,6 @@
 
 <!-- end about section -->
 
-<!-- book section -->
-<section class="book_section layout_padding">
-    <div class="container">
-        <div class="heading_container">
-            <h2>
-                Book A Table
-            </h2>
-        </div>
-        <div class="row">
-            <div class="col-md-6">
-                <div class="form_container">
-                    <form action="">
-                        <div>
-                            <input type="text" class="form-control" placeholder="Your Name" />
-                        </div>
-                        <div>
-                            <input type="text" class="form-control" placeholder="Phone Number" />
-                        </div>
-                        <div>
-                            <input type="email" class="form-control" placeholder="Your Email" />
-                        </div>
-                        <div>
-                            <select class="form-control nice-select wide">
-                                <option value="" disabled selected>
-                                    How many persons?
-                                </option>
-                                <option value="">
-                                    2
-                                </option>
-                                <option value="">
-                                    3
-                                </option>
-                                <option value="">
-                                    4
-                                </option>
-                                <option value="">
-                                    5
-                                </option>
-                            </select>
-                        </div>
-                        <div>
-                            <input type="date" class="form-control">
-                        </div>
-                        <div class="btn_box">
-                            <button>
-                                Book Now
-                            </button>
-                        </div>
-                    </form>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="map_container ">
-                    <div id="googleMap"></div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- end book section -->
-
 <!-- client section -->
 
 <section class="client_section layout_padding-bottom">
@@ -1244,25 +1178,25 @@
             <div class="col-md-4 footer-col">
                 <div class="footer_contact">
                     <h4>
-                        Contact Us
+                        Liên hệ
                     </h4>
                     <div class="contact_link_box">
                         <a href="">
                             <i class="fa fa-map-marker" aria-hidden="true"></i>
                             <span>
-                  Location
+                  Vị trí
                 </span>
                         </a>
                         <a href="">
                             <i class="fa fa-phone" aria-hidden="true"></i>
                             <span>
-                  Call +01 1234567890
+                  0769854321
                 </span>
                         </a>
                         <a href="">
                             <i class="fa fa-envelope" aria-hidden="true"></i>
                             <span>
-                  demo@gmail.com
+                  nhom12@gmail.com
                 </span>
                         </a>
                     </div>
@@ -1271,10 +1205,11 @@
             <div class="col-md-4 footer-col">
                 <div class="footer_detail">
                     <a href="" class="footer-logo">
-                        Feane
+                        Fast Food
                     </a>
                     <p>
-                        Necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with
+                        Cần thiết, làm cho nó trở thành trình tạo thực sự đầu tiên trên Internet.
+                        Nó sử dụng một từ điển hơn 200 từ Latinh, kết hợp với
                     </p>
                     <div class="footer_social">
                         <a href="">
@@ -1297,13 +1232,13 @@
             </div>
             <div class="col-md-4 footer-col">
                 <h4>
-                    Opening Hours
+                    Giờ mở cửa
                 </h4>
                 <p>
-                    Everyday
+                    Mỗi ngày
                 </p>
                 <p>
-                    10.00 Am -10.00 Pm
+                    10:00 Am - 10:00 Pm
                 </p>
             </div>
         </div>

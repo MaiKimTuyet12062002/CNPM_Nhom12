@@ -197,7 +197,7 @@ a:focus {
       &:hover,
       &.active {
         .nav-link {
-          color: $primary1;
+          //color: $primary1;
         }
       }
     }
@@ -253,10 +253,6 @@ a:focus {
         fill: $primary1;
       }
     }
-  }
-
-  .order_online {
-    @include hero_btn($primary1, $white, 8px, 30px, 45px);
   }
 }
 
@@ -408,7 +404,7 @@ a:focus {
       height: 175px;
       margin-right: 15px;
       position: relative;
-      transition: all .1.5s;
+      transition: all 1.5s;
       border-radius: 100%;
       border: 5px solid $primary1;
       overflow: hidden;

@@ -52,7 +52,7 @@
       <nav class="navbar navbar-expand-lg custom_nav-container ">
         <a class="navbar-brand" href="index.jsp">
             <span>
-              Feane
+              Fast Food
             </span>
         </a>
 
@@ -62,17 +62,14 @@
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav  mx-auto ">
-            <li class="nav-item">
-              <a class="nav-link" href="index.jsp">Home </a>
-            </li>
             <li class="nav-item active">
-              <a class="nav-link" href="menu.html">Menu <span class="sr-only">(current)</span> </a>
+              <a class="nav-link" href="index.jsp">Trang chủ <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="about.jsp">About</a>
+              <a class="nav-link" href="menu.jsp">Thực đơn</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="book.jsp">Book Table</a>
+              <a class="nav-link" href="about.jsp">Liên hệ</a>
             </li>
           </ul>
           <div class="user_option">
@@ -138,9 +135,6 @@
                 <i class="fa fa-search" aria-hidden="true"></i>
               </button>
             </form>
-            <a href="" class="order_online">
-              Order Online
-            </a>
           </div>
         </div>
       </nav>
@@ -872,25 +866,25 @@
       <div class="col-md-4 footer-col">
         <div class="footer_contact">
           <h4>
-            Contact Us
+            Liên hệ
           </h4>
           <div class="contact_link_box">
             <a href="">
               <i class="fa fa-map-marker" aria-hidden="true"></i>
               <span>
-                  Location
+                  Vị trí
                 </span>
             </a>
             <a href="">
               <i class="fa fa-phone" aria-hidden="true"></i>
               <span>
-                  Call +01 1234567890
+                  0769854321
                 </span>
             </a>
             <a href="">
               <i class="fa fa-envelope" aria-hidden="true"></i>
               <span>
-                  demo@gmail.com
+                  nhom12@gmail.com
                 </span>
             </a>
           </div>
@@ -899,10 +893,11 @@
       <div class="col-md-4 footer-col">
         <div class="footer_detail">
           <a href="" class="footer-logo">
-            Feane
+            Fast Food
           </a>
           <p>
-            Necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with
+            Cần thiết, làm cho nó trở thành trình tạo thực sự đầu tiên trên Internet.
+            Nó sử dụng một từ điển hơn 200 từ Latinh, kết hợp với
           </p>
           <div class="footer_social">
             <a href="">
@@ -925,23 +920,15 @@
       </div>
       <div class="col-md-4 footer-col">
         <h4>
-          Opening Hours
+          Giờ mở cửa
         </h4>
         <p>
-          Everyday
+          Mỗi ngày
         </p>
         <p>
-          10.00 Am -10.00 Pm
+          10:00 Am - 10:00 Pm
         </p>
       </div>
-    </div>
-    <div class="footer-info">
-      <p>
-        &copy; <span id="displayYear_1"></span> All Rights Reserved By
-        <a href="https://html.design/">Free Html Templates</a><br><br>
-        &copy; <span id="displayYear"></span> Distributed By
-        <a href="https://themewagon.com/" target="_blank">ThemeWagon</a>
-      </p>
     </div>
   </div>
 </footer>
