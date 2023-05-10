@@ -144,14 +144,14 @@
                             <div class="col-md-7 col-lg-6 ">
                                 <div class="detail-box">
                                     <h1>
-                                        Fast Food Restaurant
+                                        Nhà hàng thức ăn nhanh
                                     </h1>
                                     <p>
-                                        Doloremque, itaque aperiam facilis rerum, commodi, temporibus sapiente ad mollitia laborum quam quisquam esse error unde. Tempora ex doloremque, labore, sunt repellat dolore, iste magni quos nihil ducimus libero ipsam.
+                                        Đặt Combo gà rán Fast Food và nhiều món ăn hấp dẫn chỉ có tại các cửa hàng Fast Food. Đặt hàng trực tuyến, giao hàng tận nơi với nhiều khuyến mãi hấp dẫn.
                                     </p>
                                     <div class="btn-box">
                                         <a href="" class="btn1">
-                                            Order Now
+                                            Đặt hàng ngay
                                         </a>
                                     </div>
                                 </div>
@@ -165,14 +165,14 @@
                             <div class="col-md-7 col-lg-6 ">
                                 <div class="detail-box">
                                     <h1>
-                                        Fast Food Restaurant
+                                        Nhà hàng thức ăn nhanh
                                     </h1>
                                     <p>
-                                        Doloremque, itaque aperiam facilis rerum, commodi, temporibus sapiente ad mollitia laborum quam quisquam esse error unde. Tempora ex doloremque, labore, sunt repellat dolore, iste magni quos nihil ducimus libero ipsam.
+                                        Đặt Combo gà rán Fast Food và nhiều món ăn hấp dẫn chỉ có tại các cửa hàng Fast Food. Đặt hàng trực tuyến, giao hàng tận nơi với nhiều khuyến mãi hấp dẫn.
                                     </p>
                                     <div class="btn-box">
                                         <a href="" class="btn1">
-                                            Order Now
+                                            Đặt hàng ngay
                                         </a>
                                     </div>
                                 </div>
@@ -186,14 +186,14 @@
                             <div class="col-md-7 col-lg-6 ">
                                 <div class="detail-box">
                                     <h1>
-                                        Fast Food Restaurant
+                                        Nhà hàng thức ăn nhanh
                                     </h1>
                                     <p>
-                                        Doloremque, itaque aperiam facilis rerum, commodi, temporibus sapiente ad mollitia laborum quam quisquam esse error unde. Tempora ex doloremque, labore, sunt repellat dolore, iste magni quos nihil ducimus libero ipsam.
+                                        Đặt Combo gà rán Fast Food và nhiều món ăn hấp dẫn chỉ có tại các cửa hàng Fast Food. Đặt hàng trực tuyến, giao hàng tận nơi với nhiều khuyến mãi hấp dẫn.
                                     </p>
                                     <div class="btn-box">
                                         <a href="" class="btn1">
-                                            Order Now
+                                            Đặt hàng ngay
                                         </a>
                                     </div>
                                 </div>
@@ -228,13 +228,13 @@
                         </div>
                         <div class="detail-box">
                             <h5>
-                                Tasty Thursdays
+                                Thức ăn thứ năm
                             </h5>
                             <h6>
-                                <span>20%</span> Off
+                                <span>20%</span> Giảm giá
                             </h6>
                             <a href="">
-                                Order Now <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 456.029 456.029" style="enable-background:new 0 0 456.029 456.029;" xml:space="preserve">
+                                Đặt hàng ngay <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 456.029 456.029" style="enable-background:new 0 0 456.029 456.029;" xml:space="preserve">
                     <g>
                         <g>
                             <path d="M345.6,338.862c-29.184,0-53.248,23.552-53.248,53.248c0,29.184,23.552,53.248,53.248,53.248
@@ -297,13 +297,13 @@
                         </div>
                         <div class="detail-box">
                             <h5>
-                                Pizza Days
+                                Ngày pizza
                             </h5>
                             <h6>
-                                <span>15%</span> Off
+                                <span>15%</span> Giảm giá
                             </h6>
                             <a href="">
-                                Order Now <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 456.029 456.029" style="enable-background:new 0 0 456.029 456.029;" xml:space="preserve">
+                                Đặt hàng ngay <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 456.029 456.029" style="enable-background:new 0 0 456.029 456.029;" xml:space="preserve">
                     <g>
                         <g>
                             <path d="M345.6,338.862c-29.184,0-53.248,23.552-53.248,53.248c0,29.184,23.552,53.248,53.248,53.248
@@ -368,20 +368,20 @@
 
 <!-- food section -->
 
-<section class="food_section layout_padding-bottom">
+<section class="food_section layout_padding">
     <div class="container">
         <div class="heading_container heading_center">
             <h2>
-                Our Menu
+                Menu của chúng tôi
             </h2>
         </div>
 
         <ul class="filters_menu">
-            <li class="active" data-filter="*">All</li>
+            <li class="active" data-filter="*">Tất cả</li>
             <li data-filter=".burger">Burger</li>
             <li data-filter=".pizza">Pizza</li>
-            <li data-filter=".pasta">Pasta</li>
-            <li data-filter=".fries">Fries</li>
+            <li data-filter=".pasta">Mì ống</li>
+            <li data-filter=".fries">Khoai tây chiên</li>
         </ul>
 
         <div class="filters-content">
@@ -394,14 +394,15 @@
                             </div>
                             <div class="detail-box">
                                 <h5>
-                                    Delicious Pizza
+                                    Pizza tôm
                                 </h5>
                                 <p>
-                                    Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque
+                                    Ngày nay các món ăn nhanh đang dần trở thành chọn lựa của nhiều người trong khẩu phần ăn thường nhật.
+                                    Không chỉ thơm ngon, đồ ăn nhanh còn cung cấp cho người ăn một nguồn năng lượng dồi dào.
                                 </p>
                                 <div class="options">
                                     <h6>
-                                        $20
+                                        20.000
                                     </h6>
                                     <a href="">
                                         <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 456.029 456.029" style="enable-background:new 0 0 456.029 456.029;" xml:space="preserve">
@@ -470,14 +471,15 @@
                             </div>
                             <div class="detail-box">
                                 <h5>
-                                    Delicious Burger
+                                    Burger kẹp thịt nhỏ
                                 </h5>
                                 <p>
-                                    Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque
+                                    Ngày nay các món ăn nhanh đang dần trở thành chọn lựa của nhiều người trong khẩu phần ăn thường nhật.
+                                    Không chỉ thơm ngon, đồ ăn nhanh còn cung cấp cho người ăn một nguồn năng lượng dồi dào.
                                 </p>
                                 <div class="options">
                                     <h6>
-                                        $15
+                                        15.000
                                     </h6>
                                     <a href="">
                                         <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 456.029 456.029" style="enable-background:new 0 0 456.029 456.029;" xml:space="preserve">
@@ -546,14 +548,14 @@
                             </div>
                             <div class="detail-box">
                                 <h5>
-                                    Delicious Pizza
+                                    Pizza không thịt
                                 </h5>
                                 <p>
-                                    Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque
-                                </p>
+                                    Ngày nay các món ăn nhanh đang dần trở thành chọn lựa của nhiều người trong khẩu phần ăn thường nhật.
+                                    Không chỉ thơm ngon, đồ ăn nhanh còn cung cấp cho người ăn một nguồn năng lượng dồi dào.                  </p>
                                 <div class="options">
                                     <h6>
-                                        $17
+                                        17.000
                                     </h6>
                                     <a href="">
                                         <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 456.029 456.029" style="enable-background:new 0 0 456.029 456.029;" xml:space="preserve">
@@ -622,14 +624,14 @@
                             </div>
                             <div class="detail-box">
                                 <h5>
-                                    Delicious Pasta
+                                    Mỳ ống ngon
                                 </h5>
                                 <p>
-                                    Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque
-                                </p>
+                                    Ngày nay các món ăn nhanh đang dần trở thành chọn lựa của nhiều người trong khẩu phần ăn thường nhật.
+                                    Không chỉ thơm ngon, đồ ăn nhanh còn cung cấp cho người ăn một nguồn năng lượng dồi dào.                  </p>
                                 <div class="options">
                                     <h6>
-                                        $18
+                                        18.000
                                     </h6>
                                     <a href="">
                                         <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 456.029 456.029" style="enable-background:new 0 0 456.029 456.029;" xml:space="preserve">
@@ -698,14 +700,14 @@
                             </div>
                             <div class="detail-box">
                                 <h5>
-                                    French Fries
+                                    Khoai tây chiên
                                 </h5>
                                 <p>
-                                    Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque
-                                </p>
+                                    Ngày nay các món ăn nhanh đang dần trở thành chọn lựa của nhiều người trong khẩu phần ăn thường nhật.
+                                    Không chỉ thơm ngon, đồ ăn nhanh còn cung cấp cho người ăn một nguồn năng lượng dồi dào.                  </p>
                                 <div class="options">
                                     <h6>
-                                        $10
+                                        10.000
                                     </h6>
                                     <a href="">
                                         <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 456.029 456.029" style="enable-background:new 0 0 456.029 456.029;" xml:space="preserve">
@@ -774,14 +776,14 @@
                             </div>
                             <div class="detail-box">
                                 <h5>
-                                    Delicious Pizza
+                                    Pizza
                                 </h5>
                                 <p>
-                                    Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque
-                                </p>
+                                    Ngày nay các món ăn nhanh đang dần trở thành chọn lựa của nhiều người trong khẩu phần ăn thường nhật.
+                                    Không chỉ thơm ngon, đồ ăn nhanh còn cung cấp cho người ăn một nguồn năng lượng dồi dào.                  </p>
                                 <div class="options">
                                     <h6>
-                                        $15
+                                        15.000
                                     </h6>
                                     <a href="">
                                         <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 456.029 456.029" style="enable-background:new 0 0 456.029 456.029;" xml:space="preserve">
@@ -850,14 +852,15 @@
                             </div>
                             <div class="detail-box">
                                 <h5>
-                                    Tasty Burger
+                                    Burger gà
                                 </h5>
                                 <p>
-                                    Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque
+                                    Ngày nay các món ăn nhanh đang dần trở thành chọn lựa của nhiều người trong khẩu phần ăn thường nhật.
+                                    Không chỉ thơm ngon, đồ ăn nhanh còn cung cấp cho người ăn một nguồn năng lượng dồi dào.
                                 </p>
                                 <div class="options">
                                     <h6>
-                                        $12
+                                        12.000
                                     </h6>
                                     <a href="">
                                         <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 456.029 456.029" style="enable-background:new 0 0 456.029 456.029;" xml:space="preserve">
@@ -926,14 +929,14 @@
                             </div>
                             <div class="detail-box">
                                 <h5>
-                                    Tasty Burger
+                                    Burger kẹp thịt
                                 </h5>
                                 <p>
-                                    Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque
-                                </p>
+                                    Ngày nay các món ăn nhanh đang dần trở thành chọn lựa của nhiều người trong khẩu phần ăn thường nhật.
+                                    Không chỉ thơm ngon, đồ ăn nhanh còn cung cấp cho người ăn một nguồn năng lượng dồi dào.                  </p>
                                 <div class="options">
                                     <h6>
-                                        $14
+                                        14.000
                                     </h6>
                                     <a href="">
                                         <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 456.029 456.029" style="enable-background:new 0 0 456.029 456.029;" xml:space="preserve">
@@ -1002,14 +1005,14 @@
                             </div>
                             <div class="detail-box">
                                 <h5>
-                                    Delicious Pasta
+                                    Mì ống
                                 </h5>
                                 <p>
-                                    Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque
-                                </p>
+                                    Ngày nay các món ăn nhanh đang dần trở thành chọn lựa của nhiều người trong khẩu phần ăn thường nhật.
+                                    Không chỉ thơm ngon, đồ ăn nhanh còn cung cấp cho người ăn một nguồn năng lượng dồi dào.                  </p>
                                 <div class="options">
                                     <h6>
-                                        $10
+                                        10.000
                                     </h6>
                                     <a href="">
                                         <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 456.029 456.029" style="enable-background:new 0 0 456.029 456.029;" xml:space="preserve">
@@ -1074,7 +1077,7 @@
         </div>
         <div class="btn-box">
             <a href="">
-                View More
+                Xem thêm
             </a>
         </div>
     </div>
