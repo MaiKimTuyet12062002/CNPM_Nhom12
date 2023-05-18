@@ -151,17 +151,16 @@
           <div class="detail-box">
             <div class="heading_container">
               <h2>
-                We Are Feane
+                Chúng tôi là Fast Food
               </h2>
             </div>
             <p>
-              There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration
-              in some form, by injected humour, or randomised words which don't look even slightly believable. If you
-              are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in
-              the middle of text. All
+              Thức ăn nhanh đã trở thành lựa chọn ăn uống phổ biến và tiện lợi của nhiều người, tuy nhiên nó cũng đi kèm cả mặt lợi và mặt hại.
+              Một trong những lợi ích lớn nhất của thức ăn nhanh là sự tiện lợi của nó. Đó là một lựa chọn nhanh chóng và dễ dàng cho những
+              người hay di chuyển hoặc có lịch trình bận rộn. Ngoài ra,
             </p>
             <a href="">
-              Read More
+              Đọc thêm
             </a>
           </div>
         </div>
