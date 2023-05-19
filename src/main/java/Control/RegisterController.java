@@ -17,6 +17,7 @@ import javax.servlet.http.HttpServlet;
 public class RegisterController extends HttpServlet
 {
     protected void doGet(final HttpServletRequest request, final HttpServletResponse response) throws ServletException, IOException {
+        request.getRequestDispatcher("Register.jsp").forward(request, response);
     }
 
     protected void doPost(final HttpServletRequest request, final HttpServletResponse response) throws ServletException, IOException {
