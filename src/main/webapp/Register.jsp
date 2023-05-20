@@ -52,7 +52,7 @@
 
     <div class="container">
         <nav class="navbar navbar-expand-lg custom_nav-container ">
-            <a class="navbar-brand" href="index.jsp">
+            <a class="navbar-brand" href="/index">
             <span >
               Fast Food
             </span>
@@ -65,17 +65,17 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav  mx-auto ">
                     <li class="nav-item active">
-                        <a class="nav-link" href="index.jsp">Trang chủ <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="/index">Trang chủ <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="menu.jsp">Thực đơn</a>
+                        <a class="nav-link" href="/menu">Thực đơn</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="about.jsp">Liên hệ</a>
+                        <a class="nav-link" href="/about">Liên hệ</a>
                     </li>
                 </ul>
                 <div class="user_option">
-                    <a href="Register.jsp" class="user_link">
+                    <a href="/Register" class="user_link">
                         <i class="fa fa-user" aria-hidden="true"></i>
                     </a>
                     <a class="cart_link" href="#">
@@ -145,8 +145,8 @@
 <!-- end header section -->
 <div id="account-register" class="container">
     <ul class="breadcrumb">
-        <li><a href="index.jsp"><i class="fa fa-home"></i></a></li>
-        <li><a href="Register.jsp">Đăng ký</a></li>
+        <li><a href="/index"><i class="fa fa-home"></i></a></li>
+        <li><a href="/Register">Đăng ký</a></li>
     </ul>
     <div class="row">
 <%--        <jsp:include page="Layout/MenuBarAccount.jsp" />--%>
