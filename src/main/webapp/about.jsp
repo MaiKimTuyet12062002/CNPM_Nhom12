@@ -34,7 +34,6 @@
 </head>
 
 <body class="sub_page">
-
   <div class="hero_area">
     <div class="bg-box">
       <img src="images/hero-bg.jpg" alt="">
@@ -48,11 +47,9 @@
               Fast Food
             </span>
           </a>
-
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class=""> </span>
           </button>
-
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav  mx-auto ">
               <li class="nav-item active">
@@ -157,7 +154,7 @@
             <p>
               Thức ăn nhanh đã trở thành lựa chọn ăn uống phổ biến và tiện lợi của nhiều người, tuy nhiên nó cũng đi kèm cả mặt lợi và mặt hại.
               Một trong những lợi ích lớn nhất của thức ăn nhanh là sự tiện lợi của nó. Đó là một lựa chọn nhanh chóng và dễ dàng cho những
-              người hay di chuyển hoặc có lịch trình bận rộn. Ngoài ra,...
+              người hay di chuyển hoặc có lịch trình bận rộn. Ngoài ra,
             </p>
             <a href="">
               Đọc thêm
