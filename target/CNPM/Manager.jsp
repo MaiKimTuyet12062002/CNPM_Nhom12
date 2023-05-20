@@ -58,7 +58,7 @@
                             <li><a><i class="fa fa-edit"></i>Quản lý<span class="fa fa-chevron-down"></span></a>
                                 <ul class="nav child_menu">
                                     <li><a href="#">Quản lý User</a></li>
-                                    <li><a href="http://localhost:8080/manageControl">Quản lý sản phẩm</a></li>
+                                    <li><a href="/manageControl">Quản lý sản phẩm</a></li>
                                     <li><a href="#">Quản lý hóa đơn</a></li>
                                     <li><a href="#">Quản lý danh mục</a></li>
                                 </ul>
