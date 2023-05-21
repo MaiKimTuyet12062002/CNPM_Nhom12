@@ -67,7 +67,7 @@
         <li><a href="/Register">Đăng ký</a></li>
     </ul>
     <div class="row">
-<%--        <jsp:include page="Layout/MenuBarAccount.jsp" />--%>
+        <%--        <jsp:include page="Layout/MenuBarAccount.jsp" />--%>
         <div id="content" class="col-sm-9">
             <h1>Đăng ký tài khoản</h1>
             <p>Nếu bạn đã có tài khoản với chúng tôi, vui lòng đăng nhập tại trang <a
