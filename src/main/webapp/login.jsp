@@ -1,4 +1,6 @@
+<%@ page import="com.mysql.cj.Session" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,7 +11,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
   <link rel="stylesheet" href="css/login.css">
 
-  <title>Document</title>
+  <title>Đăng nhập</title>
 </head>
 <body>
 
@@ -27,6 +29,8 @@
 
                 <h2 class="fw-bold mb-2 text-uppercase">Đăng nhập</h2>
                 <p class="text-white-50 mb-5">Vui lòng nhập tên đăng nhập và mật khẩu</p>
+<%--                <p class="text-danger">${requestScope['mess']}</p>--%>
+                <p class="text-danger"><%=request.getAttribute("mess") != null ? request.getAttribute("mess") : ""%></p>
 
                 <div class="form-floating mb-3">
                   <input name="username" type="email" class="form-control" id="floatingInput" >

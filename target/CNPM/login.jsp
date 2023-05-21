@@ -1,4 +1,6 @@
+<%@ page import="com.mysql.cj.Session" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -27,6 +29,8 @@
 
                 <h2 class="fw-bold mb-2 text-uppercase">Đăng nhập</h2>
                 <p class="text-white-50 mb-5">Vui lòng nhập tên đăng nhập và mật khẩu</p>
+<%--                <p class="text-danger">${requestScope['mess']}</p>--%>
+                <p class="text-danger"><%=request.getAttribute("mess") != null ? request.getAttribute("mess") : ""%></p>
 
                 <div class="form-floating mb-3">
                   <input name="username" type="email" class="form-control" id="floatingInput" >
