@@ -35,18 +35,17 @@
     <link href="css/style.css" rel="stylesheet"/>
     <!-- responsive style -->
     <link href="css/responsive.css" rel="stylesheet"/>
-    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet"/>
     <!-- responsive style -->
 
     <link rel="stylesheet" href="css/stylesheet.css">
     <link rel="stylesheet" href="css/style.css">
 
 
-
 </head>
 
-<body >
-<div class="hero_area" >
+<body>
+<div class="hero_area">
     <div class="bg-box">
         <img src="images/hero-bg.jpg" alt="">
     </div>
@@ -59,13 +58,11 @@
               Fast Food
             </span>
                 </a>
-
                 <button class="navbar-toggler" type="button" data-toggle="collapse"
                         data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class=""> </span>
                 </button>
-
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav  mx-auto ">
                         <li class="nav-item active">
@@ -80,45 +77,47 @@
                     </ul>
                     <div class="user_option">
                         <nav id="top" class="clearfix">
-
-                            <div class="nav-right" >
-                                <div id="top-links" class="nav myaccount"  >
-                                    <ul class="list-inline" >
-                                        <li class="myaccount-dropdown" >
+                            <div class="nav-right">
+                                <div id="top-links" class="nav myaccount">
+                                    <ul class="list-inline">
+                                        <li class="myaccount-dropdown">
                                             <%if (session.getAttribute("account") == null) {%>
                                             <!-- Tài khoản -->
                                             <a style="color: #eeebeb" href=""
                                                title="My Account" class="dropdown-toggle" data-toggle="dropdown"><i
-                                                    class="fa fa-user"></i><i class="fa fa-angle-down" ></i></a>
-
+                                                    class="fa fa-user"></i><i class="fa fa-angle-down"></i></a>
                                             <ul class="dropdown-menu dropdown-menu-right">
                                                 <!-- Đăng ký -->
-                                                <li><a href="Register.jsp">Đăng
+                                                <li><a href="/Register">Đăng
                                                     ký</a></li>
                                                 <!-- Đăng nhập -->
-                                                <li><a href="login.jsp">Đăng
+                                                <li><a href="/login">Đăng
                                                     nhập</a></li>
                                             </ul>
                                             <%
                                             } else {
-                                                Account account = (Account)session.getAttribute("account");
+                                                Account account = (Account) session.getAttribute("account");
                                             %>
                                             <a href=""
-                                               title="My Account" class="dropdown-toggle" data-toggle="dropdown" style="color: #ffffff"> <i
-                                                    class="fa fa-user"></i>Hello! <%=account.getFullName()%>&nbsp;<i class="fa fa-angle-down"></i></a>
-
+                                               title="My Account" class="dropdown-toggle" data-toggle="dropdown"
+                                               style="color: #ffffff"> <i
+                                                    class="fa fa-user"></i><%=account.getFullName()%>&nbsp;<i
+                                                    class="fa fa-angle-down"></i></a>
                                             <ul class="dropdown-menu dropdown-menu-right">
-                                                <li><a href="MyAccount.jsp">Tài khoản của tôi</a></li>
-
+                                                <% if(account.getRole()==2) {%>
+                                                <li><a href="/Manage">Quản lý</a></li>
+                                                <%
+                                                } if(account.getRole()==1)
+                                                %>
+                                                <li><a href="#">Tài khoản của tôi</a></li>
                                                 <li><a href="LogOut">Đăng xuất</a></li>
                                             </ul>
                                             <%}%>
                                         </li>
                                     </ul>
                                 </div>
+                            </div>
                         </nav>
-
-                    </div>
                         <a class="cart_link" href="#">
                             <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
                                  xmlns:xlink="http://www.w3.org/1999/xlink" x="0.1px" y="0px"
@@ -183,9 +182,8 @@
                         </form>
                     </div>
                 </div>
-
             </nav>
-
+        </div>
     </header>
     <!-- end header section -->
     <!-- slider section -->
@@ -197,7 +195,7 @@
                         <div class="row">
                             <div class="col-md-7 col-lg-6 ">
                                 <div class="detail-box">
-                                    <h1 >
+                                    <h1>
                                         Nhà hàng thức ăn nhanh
                                     </h1>
                                     <p>

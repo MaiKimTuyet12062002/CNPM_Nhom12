@@ -41,12 +41,9 @@
                     </div>
                     <div class="profile_info">
                         <span>Xin chào,</span>
-<%--                        <h2>--%>
-<%--                            <%--%>
-<%--                                Account user = (Account) session.getAttribute("user");--%>
-<%--                            %>--%>
-<%--                            <%= user.getFullName() %>--%>
-<%--                        </h2>--%>
+                        <% Account account = (Account) session.getAttribute("account");%>
+                        <a href=""
+                           style="color: #ffffff"><br><%=account.getFullName()%></a>
                     </div>
                 </div>
                 <!-- /menu profile quick info -->

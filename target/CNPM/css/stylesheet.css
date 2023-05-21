@@ -1,5 +1,5 @@
 body {
-    color: #ffffff;
+    color: #575757;
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     font-weight: 400;
@@ -9,7 +9,7 @@ body {
 /* General Style */
 /*----------------------------------------------*/
 h1, h2, h3, h4, h5, h6 {
-    color: #ffffff;
+    color: #646464;
 }
 h1, h2, h3, h5, h6 {
     text-transform: uppercase;
@@ -42,7 +42,7 @@ h1, h2, h3, h5, h6{
     line-height: 1.1;
 }
 a {
-    color: #ffffff;
+    color: #565656;
 }
 a:hover,a:focus {
     text-decoration: none;
