@@ -153,7 +153,7 @@
         <div id="content" class="col-sm-9">
             <h1>Đăng ký tài khoản</h1>
             <p>Nếu bạn đã có tài khoản với chúng tôi, vui lòng đăng nhập tại trang <a
-                    href="login.jsp">đăng nhập</a>.</p>
+                    href="/login">đăng nhập</a>.</p>
             <!-- Form nhập thông tin đăng ký tài khoản, sử dụng required để bắt người dùng nhập đủ thông tin, không được bỏ trống -->
             <form action="/Register" method="post" class="form-horizontal" name="form1" onsubmit="return validation()">
                 <fieldset id="account">

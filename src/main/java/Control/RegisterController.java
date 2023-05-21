@@ -53,7 +53,7 @@ public class RegisterController extends HttpServlet
                 //Thêm account thành công sẽ thông báo đăng ký thành công và chuyển sang trang đăng nhập
                 //Khi qua trang sẽ hiện 1 alert thông báo trạng thái(sử dụng get attribute "mess" để lấy nội dung trạng thái và hiện nó ra nếu khách null)
                 request.setAttribute("mess", "Đăng ký tài khoản thành công");
-                request.getRequestDispatcher("index.jsp").forward(request, response);
+                request.getRequestDispatcher("login.jsp").forward(request, response);
             }
             // Nếu account != nuaill nghĩa là đã tồn tại, sẽ thông báo người dùng tài khoản tồn tại
             else {

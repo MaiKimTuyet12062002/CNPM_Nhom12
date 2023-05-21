@@ -14,25 +14,26 @@ import java.io.IOException;
 import java.sql.ResultSet;
 import java.sql.PreparedStatement;
 import Entity.Account;
+import Entity.category;
+import Entity.products;
+import Service.ManageService;
 import Service.UserService;
 
 import java.sql.SQLException;
+import java.util.List;
 
 @WebServlet(name = "LoginControl", value = { "/login" })
 
 
 public class LoginControl extends HttpServlet {
-
-
-    protected void doGet(HttpServletRequest httpservletrequest, HttpServletResponse httpservletresponse)
-            throws ServletException, IOException
-    {
+    @Override
+    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        request.getRequestDispatcher("login.jsp").forward(request, response);
     }
 
-    protected void doPost(HttpServletRequest request, HttpServletResponse response)
-            throws ServletException, IOException
-    {
-        String username = request.getParameter("email");
+    @Override
+    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        String username = request.getParameter("username");
         String password = request.getParameter("password");
         try
         {
@@ -41,11 +42,11 @@ public class LoginControl extends HttpServlet {
             if(account == null)
             {
                 request.setAttribute("mess", "Sai thông tin!");
-                request.getRequestDispatcher("Login.jsp").forward(request, response);
+                request.getRequestDispatcher("login.jsp").forward(request, response);
             } else if(account.getRole()==2){
                 HttpSession session = request.getSession();
                 session.setAttribute("admin", account);
-                response.sendRedirect("AdminIndex");
+                response.sendRedirect("Manager.jsp");
             }
             else
             {
@@ -57,7 +58,7 @@ public class LoginControl extends HttpServlet {
                 }
                 else{
                     request.setAttribute("mess", "Tài khoản đã bị khóa, vui lòng liên hệ admin để được giải quyết");
-                    request.getRequestDispatcher("Login.jsp").forward(request, response);
+                    request.getRequestDispatcher("login.jsp").forward(request, response);
                 }
             }
         }
@@ -66,4 +67,5 @@ public class LoginControl extends HttpServlet {
             throw new RuntimeException(e);
         }
     }
+
 }
