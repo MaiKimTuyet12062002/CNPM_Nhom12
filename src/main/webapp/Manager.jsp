@@ -1,4 +1,4 @@
-<%--
+<%@ page import="Entity.Account" %><%--
   Created by IntelliJ IDEA.
   User: Kim_Tuyet
   Date: 5/20/2023
@@ -43,9 +43,9 @@
                         <span>Xin chào,</span>
 <%--                        <h2>--%>
 <%--                            <%--%>
-<%--                                User user = (User) session.getAttribute("user");--%>
+<%--                                Account user = (Account) session.getAttribute("user");--%>
 <%--                            %>--%>
-<%--                            <%= user.getNameUser() %>--%>
+<%--                            <%= user.getFullName() %>--%>
 <%--                        </h2>--%>
                     </div>
                 </div>
@@ -58,6 +58,7 @@
                             <li><a><i class="fa fa-edit"></i>Quản lý<span class="fa fa-chevron-down"></span></a>
                                 <ul class="nav child_menu">
                                     <li><a href="#">Quản lý User</a></li>
+                                    <!-- 1. Admin chọn mục "Quản lý sản phẩm" -->
                                     <li><a href="/manageControl">Quản lý sản phẩm</a></li>
                                     <li><a href="#">Quản lý hóa đơn</a></li>
                                     <li><a href="#">Quản lý danh mục</a></li>

@@ -29,6 +29,7 @@
     }
 </style>
 <body>
+<!-- 2. Hiển thị giao diện quản lý sản phẩm -->
 <div class="container">
     <div class="table-wrapper">
         <div class="table-title">
@@ -102,7 +103,7 @@
             </ul>
         </div>
     </div>
-    <a href="/manager">
+    <a href="/Manage">
         <button type="button" class="btn btn-primary">Trở về</button>
     </a>
 </div>
@@ -112,11 +113,14 @@
         <div class="modal-content">
             <form action="addControl" method="post">
                 <div class="modal-header">
+                    <!-- 3. Admin chọn mục "Thêm sản phẩm" -->
                     <h4 class="modal-title">Thêm sản phẩm</h4>
                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
                 </div>
+                <!-- 4. Hệ thống hiển thị form nhập thông tin sản phẩm -->
                 <div class="modal-body">
                     <div class="form-group">
+                        <!-- 5. Admin nhập thông tin sản phẩm vào các trường trên form -->
                         <label>Mã sản phẩm</label>
                         <input name="id" type="text" class="form-control form-control-id" required>
                     </div>
@@ -151,6 +155,7 @@
                 </div>
                 <div class="modal-footer">
                     <input type="button" class="btn btn-default" data-dismiss="modal" value="Hủy">
+                    <!-- 6. Admin nhấn nút "Thêm" để thêm sản phẩm vào dữ liệu -->
                     <input type="submit" class="btn btn-success" value="Thêm">
                 </div>
             </form>
