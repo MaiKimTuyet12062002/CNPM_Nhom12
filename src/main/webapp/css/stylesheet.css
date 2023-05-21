@@ -592,9 +592,6 @@ div.required .control-label:before {
 .myaccount-dropdown a i + i{
     margin: 0;
 }
-#top .btn-link{
-    color: #e5e2e2;
-}
 #top, #top-links li, #top-links a {
     color: #444;
     text-decoration: none;

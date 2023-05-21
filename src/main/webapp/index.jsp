@@ -117,13 +117,8 @@
                                                 <li><a href="LogOut">Đăng xuất</a></li>
                                             </ul>
                                             <%}%>
-
-
-
                                         </li>
                                     </ul>
-
-
                         </nav>
                     </div>
                         <a class="cart_link" href="#">

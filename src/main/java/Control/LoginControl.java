@@ -42,7 +42,7 @@ public class LoginControl extends HttpServlet {
             Account account = service.findAccount(username, password);
             if(account == null)
             {
-                request.setAttribute("mess", "Sai thông tin!");
+                request.setAttribute("mess", "Sai tên đăng nhập hoặc mật khẩu!");
                 request.getRequestDispatcher("login.jsp").forward(request, response);
             } else if(account.getRole()==2){
                 HttpSession session = request.getSession();
