@@ -1,3 +1,4 @@
+<%@ page import="Entity.Account" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <!DOCTYPE html>
 <html>
@@ -34,6 +35,17 @@
     <link href="css/style.css" rel="stylesheet"/>
     <!-- responsive style -->
     <link href="css/responsive.css" rel="stylesheet"/>
+    <link href="css/style.css" rel="stylesheet" />
+    <!-- responsive style -->
+    <link href="css/responsive.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="JQuery/jquery-2.1.1.min.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="Bootstrap/bootstrap.min.css" media="screen">
+    <script src="Bootstrap/bootstrap.min.js" type="text/javascript"></script>
+    <script src="js/custom.js" type="text/javascript"></script>
+
 
 </head>
 
@@ -71,14 +83,49 @@
                         </li>
                     </ul>
                     <div class="user_option">
-                        <a href="/Register" class="user_link">
-                            <i class="fa fa-user" aria-hidden="true">
-                            </i>
-                        </a>
-                        <a href="/Manage" class="user_link">
-                            <i class="fa fa-gear" aria-hidden="true">
-                            </i>
-                        </a>
+                        <nav id="top" class="clearfix">
+
+                            <div class="nav-right" >
+                                <div id="top-links" class="nav myaccount"  >
+                                    <ul class="list-inline" >
+                                        <li class="myaccount-dropdown" >
+                                            <%if (session.getAttribute("account") == null) {%>
+                                            <!-- Tài khoản -->
+                                            <a style="color: #ffffff" href=""
+                                               title="My Account" class="dropdown-toggle" data-toggle="dropdown"><i
+                                                    class="fa fa-user"></i><i class="fa fa-angle-down" ></i></a>
+
+                                            <ul class="dropdown-menu dropdown-menu-right">
+                                                <!-- Đăng ký -->
+                                                <li><a href="Register.jsp">Đăng
+                                                    ký</a></li>
+                                                <!-- Đăng nhập -->
+                                                <li><a href="login.jsp">Đăng
+                                                    nhập</a></li>
+                                            </ul>
+                                            <%
+                                            } else {
+                                                Account account = (Account)session.getAttribute("account");
+                                            %>
+                                            <a href=""
+                                               title="My Account" class="dropdown-toggle" data-toggle="dropdown" style="color: #ffffff"> <i
+                                                    class="fa fa-user"></i>Hello! <%=account.getFullName()%>&nbsp;<i class="fa fa-angle-down"></i></a>
+
+                                            <ul class="dropdown-menu dropdown-menu-right">
+                                                <li><a href="MyAccount.jsp">Tài khoản của tôi</a></li>
+
+                                                <li><a href="LogOut">Đăng xuất</a></li>
+                                            </ul>
+                                            <%}%>
+
+
+
+                                        </li>
+                                    </ul>
+
+
+                        </nav>
+                    </div>
                         <a class="cart_link" href="#">
                             <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
                                  xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
