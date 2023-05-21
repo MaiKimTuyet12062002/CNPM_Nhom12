@@ -91,7 +91,7 @@
                                         <li class="myaccount-dropdown" >
                                             <%if (session.getAttribute("account") == null) {%>
                                             <!-- Tài khoản -->
-                                            <a style="color: #ffffff" href=""
+                                            <a style="color: #eeebeb" href=""
                                                title="My Account" class="dropdown-toggle" data-toggle="dropdown"><i
                                                     class="fa fa-user"></i><i class="fa fa-angle-down" ></i></a>
 
