@@ -25,20 +25,20 @@
 
               <div class="mb-md-5 mt-md-4 pb-5">
 
-                <h2 class="fw-bold mb-2 text-uppercase">Login</h2>
-                <p class="text-white-50 mb-5">Please enter your login and password!</p>
+                <h2 class="fw-bold mb-2 text-uppercase">Đăng nhập</h2>
+                <p class="text-white-50 mb-5">Vui lòng nhập tên đăng nhập và mật khẩu</p>
 
                 <div class="form-floating mb-3">
                   <input name="username" type="email" class="form-control" id="floatingInput" >
-                  <label for="floatingInput">User name</label>
+                  <label for="floatingInput">Tên đăng nhập</label>
                 </div>
 
                 <div class="form-floating mb-3">
                   <input name="password" type="password" class="form-control" id="floatingPassword" >
-                  <label for="floatingPassword">Password</label>
+                  <label for="floatingPassword">Mật khẩu</label>
                 </div>
 
-                <button class="btn btn-outline-light btn-lg px-5" type="submit" value="submit" href="/index">Login</button>
+                <button class="btn btn-outline-light btn-lg px-5" type="submit" value="submit" href="/index">Đăng nhập</button>
 
                 <div class="d-flex justify-content-center text-center mt-4 pt-1">
                   <a href="#!" class="text-white"><i class="fab fa-facebook-f fa-lg"></i></a>
@@ -49,7 +49,7 @@
               </div>
 
               <div>
-                <p class="mb-0">Don't have an account? <a href="#!" class="text-white-50 fw-bold">Sign Up</a>
+                <p class="mb-0">Bạn chưa có tài khoản? <a href="/Register" class="text-white-50 fw-bold">Đăng ký</a>
                 </p>
               </div>
 
