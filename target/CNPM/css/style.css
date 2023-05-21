@@ -191,6 +191,9 @@ a:focus {
 .custom_nav-container .nav_search-btn:hover {
   color: #ffbe33;
 }
+li.user_option{
+  display: inline-block;
+}
 
 .user_option {
   display: -webkit-box;

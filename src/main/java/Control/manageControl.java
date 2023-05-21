@@ -14,6 +14,7 @@ import java.util.List;
 public class manageControl extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        response.setContentType("text/html;charset=UTF-8");
         ManageService mana = new ManageService();
         List<products> listP = mana.getAllProduct();
         List<category> listC = mana.getAllCategory();

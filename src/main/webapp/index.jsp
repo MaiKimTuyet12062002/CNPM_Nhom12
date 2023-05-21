@@ -72,7 +72,12 @@
                     </ul>
                     <div class="user_option">
                         <a href="/Register" class="user_link">
-                            <i class="fa fa-user" aria-hidden="true"></i>
+                            <i class="fa fa-user" aria-hidden="true">
+                            </i>
+                        </a>
+                        <a href="/Manage" class="user_link">
+                            <i class="fa fa-gear" aria-hidden="true">
+                            </i>
                         </a>
                         <a class="cart_link" href="#">
                             <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
