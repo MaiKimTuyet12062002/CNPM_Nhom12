@@ -1,5 +1,5 @@
 body {
-    color: #444444;
+    color: #575757;
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     font-weight: 400;
@@ -9,7 +9,7 @@ body {
 /* General Style */
 /*----------------------------------------------*/
 h1, h2, h3, h4, h5, h6 {
-    color: #444;
+    color: #646464;
 }
 h1, h2, h3, h5, h6 {
     text-transform: uppercase;
@@ -42,7 +42,7 @@ h1, h2, h3, h5, h6{
     line-height: 1.1;
 }
 a {
-    color: #444444;
+    color: #565656;
 }
 a:hover,a:focus {
     text-decoration: none;
@@ -561,7 +561,6 @@ div.required .control-label:before {
 }
 #top-links .list-inline {
     margin: 0 8px;
-    color: #ffffff;
 }
 .currency-box,.languages-box,.myaccount,.top-contact-link{
     float: left;
@@ -592,7 +591,7 @@ div.required .control-label:before {
 .myaccount-dropdown a i + i{
     margin: 0;
 }
-#top, #top-links li, #top-links a {
+#top .btn-link, #top-links li, #top-links a {
     color: #444;
     text-decoration: none;
 }
@@ -699,7 +698,7 @@ header.active .header-top {
     left: 0;
     right: 0;
     z-index: 222;
-    background: #000000;
+    background: #fff;
     -webkit-box-shadow: 0 2px 3px rgba(0,0,0,.06);
     -moz-box-shadow: 0 2px 3px rgba(0,0,0,.06);
     box-shadow: 0 2px 3px rgba(0,0,0,.06);
@@ -3811,7 +3810,7 @@ p.powered {
         position: absolute;
         width: 200px;
         padding: 15px 0;
-        background: #ffffff;
+        background: #fff;
         border: none;
         border-radius: 0px;
         text-align: left;
@@ -3972,7 +3971,7 @@ p.powered {
         z-index: 11;
         top: 120%;
         padding: 0;
-        background-color: #000000;
+        background-color: #fff;
         border: 1px solid #eeeeee;
     }
     .header-fixed.active #topCategoryList{
@@ -4005,7 +4004,7 @@ p.powered {
         line-height: 26px;
         margin: 0px;
         padding: 8px 15px;
-        border-top: 1px solid #ffffff;
+        border-top: 1px solid #eee;
     }
     .header-fixed.active #menu #topCategoryList .dropdown-inner a,.header-fixed.active #menu .nav > li > a{
         padding: 8px 15px;
@@ -4335,7 +4334,7 @@ p.powered {
         margin: 0px;
     }
     #product-product .nav-tabs>li {
-        border: 1px solid #ffffff;
+        border: 1px solid #eeeeee;
         margin-bottom: 3px;
     }
     .product-thumb .image{

@@ -37,20 +37,16 @@
     <link href="css/responsive.css" rel="stylesheet"/>
     <link href="css/style.css" rel="stylesheet" />
     <!-- responsive style -->
-    <link href="css/responsive.css" rel="stylesheet" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
     <link rel="stylesheet" href="css/stylesheet.css">
     <link rel="stylesheet" href="css/style.css">
-    <script src="JQuery/jquery-2.1.1.min.js" type="text/javascript"></script>
-    <link rel="stylesheet" href="Bootstrap/bootstrap.min.css" media="screen">
-    <script src="Bootstrap/bootstrap.min.js" type="text/javascript"></script>
-    <script src="js/custom.js" type="text/javascript"></script>
+
 
 
 </head>
 
-<body>
-<div class="hero_area">
+<body >
+<div class="hero_area" >
     <div class="bg-box">
         <img src="images/hero-bg.jpg" alt="">
     </div>
@@ -91,7 +87,7 @@
                                         <li class="myaccount-dropdown" >
                                             <%if (session.getAttribute("account") == null) {%>
                                             <!-- Tài khoản -->
-                                            <a style="color: #ffffff" href=""
+                                            <a style="color: #eeebeb" href=""
                                                title="My Account" class="dropdown-toggle" data-toggle="dropdown"><i
                                                     class="fa fa-user"></i><i class="fa fa-angle-down" ></i></a>
 
@@ -117,17 +113,15 @@
                                                 <li><a href="LogOut">Đăng xuất</a></li>
                                             </ul>
                                             <%}%>
-
-
-
                                         </li>
                                     </ul>
                                 </div>
-
                         </nav>
+
+                    </div>
                         <a class="cart_link" href="#">
                             <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
-                                 xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                 xmlns:xlink="http://www.w3.org/1999/xlink" x="0.1px" y="0px"
                                  viewBox="0 0 456.029 456.029" style="enable-background:new 0 0 456.029 456.029;"
                                  xml:space="preserve">
                   <g>
@@ -189,8 +183,9 @@
                         </form>
                     </div>
                 </div>
+
             </nav>
-        </div>
+
     </header>
     <!-- end header section -->
     <!-- slider section -->
@@ -202,7 +197,7 @@
                         <div class="row">
                             <div class="col-md-7 col-lg-6 ">
                                 <div class="detail-box">
-                                    <h1>
+                                    <h1 >
                                         Nhà hàng thức ăn nhanh
                                     </h1>
                                     <p>
