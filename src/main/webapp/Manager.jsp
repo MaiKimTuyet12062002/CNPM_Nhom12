@@ -40,10 +40,7 @@
                         <img src="images/logo.png" alt="..." class="img-circle profile_img">
                     </div>
                     <div class="profile_info">
-                        <span>Xin chào,</span>
-                        <% Account account = (Account) session.getAttribute("account");%>
-                        <a href=""
-                           style="color: #ffffff"><br><%=account.getFullName()%></a>
+                        <span>Xin chào</span>
                     </div>
                 </div>
                 <!-- /menu profile quick info -->

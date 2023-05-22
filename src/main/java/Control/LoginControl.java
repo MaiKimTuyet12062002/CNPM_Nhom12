@@ -57,10 +57,6 @@ public class LoginControl extends HttpServlet {
                     session.setAttribute("account", account);
                     request.getRequestDispatcher("index.jsp").forward(request, response);
                 }
-                else{
-                    request.setAttribute("mess", "Tài khoản đã bị khóa, vui lòng liên hệ admin để được giải quyết");
-                    request.getRequestDispatcher("login.jsp").forward(request, response);
-                }
             }
         }
         catch(SQLException | ClassNotFoundException e)

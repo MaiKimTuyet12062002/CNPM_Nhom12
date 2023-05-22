@@ -69,7 +69,6 @@
     <div class="row">
         <%--        <jsp:include page="Layout/MenuBarAccount.jsp" />--%>
         <div id="content" class="col-sm-9">
-            <h1>Đăng ký tài khoản</h1>
             <p>Nếu bạn đã có tài khoản với chúng tôi, vui lòng đăng nhập tại trang <a
                     href="/login">đăng nhập</a>.</p>
             <!-- Form nhập thông tin đăng ký tài khoản, sử dụng required để bắt người dùng nhập đủ thông tin, không được bỏ trống -->
@@ -82,7 +81,8 @@
                             <div class="radio">
                                 <label>
                                     <input type="radio" name="customer_group_id" value="1" checked="checked" />
-                                    Default</label>
+                                    Default
+                                </label>
                             </div>
                         </div>
                     </div>

@@ -105,13 +105,7 @@
                                                     class="fa fa-angle-down"></i></a>
 
                                             <ul class="dropdown-menu dropdown-menu-right">
-                                                <%
-                                                    if (account.getRole() == 2) {
-                                                %>
                                                 <li><a href="/Manage">Quản lý</a></li>
-                                                <%
-                                                    }
-                                                %>
                                                 <li><a href="#">Tài khoản của tôi</a></li>
                                                 <li><a href="LogOut">Đăng xuất</a></li>
                                             </ul>
