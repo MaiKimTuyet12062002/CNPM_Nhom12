@@ -49,11 +49,9 @@
               Fast Food
             </span>
         </a>
-
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class=""> </span>
         </button>
-
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav  mx-auto ">
             <li class="nav-item">
@@ -174,9 +172,7 @@
   </header>
   <!-- end header section -->
 </div>
-
 <!-- food section -->
-
 <section class="food_section layout_padding">
   <div class="container">
     <div class="heading_container heading_center">
@@ -184,7 +180,6 @@
         Menu của chúng tôi
       </h2>
     </div>
-
     <ul class="filters_menu">
       <li class="active" data-filter="*">Tất cả</li>
       <li data-filter=".burger">Burger</li>
@@ -192,7 +187,6 @@
       <li data-filter=".pasta">Mì ống</li>
       <li data-filter=".fries">Khoai tây chiên</li>
     </ul>
-
     <div class="filters-content">
       <div class="row grid">
         <div class="col-sm-6 col-lg-4 all pizza">
